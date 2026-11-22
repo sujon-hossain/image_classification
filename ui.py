@@ -33,7 +33,7 @@ MEAN, STD = [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
 
 MODELS = {
     "Fine-tuned": {
-        "file": best_a/"data.pkl",
+        "file": BASE_DIR/"best_a.pt",
         "color": "#06B6D4",        # Electric Cyan
         "gradient": "linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%)",
         "badge_bg": "rgba(6, 182, 212, 0.14)",
@@ -41,7 +41,7 @@ MODELS = {
         "note": "All convolutional blocks & classifier head fine-tuned on CIFAR-10",
     },
     "Frozen": {
-        "file":  best_b/"data.pkl",
+        "file":  BASE_DIR/"best_b.pt",
         "color": "#F43F5E",        # Vibrant Rose
         "gradient": "linear-gradient(135deg, #F43F5E 0%, #F97316 100%)",
         "badge_bg": "rgba(244, 63, 94, 0.14)",
