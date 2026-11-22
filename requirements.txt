@@ -1,0 +1,6 @@
+uirements · TXT
+streamlit>=1.40
+torch==2.4.1
+torchvision==0.19.1
+pillow>=10.4
+pandas
